@@ -155,10 +155,10 @@ RectTransform:
   m_Father: {fileID: 2063426755}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -556.1501, y: 540}
-  m_SizeDelta: {x: 542.5, y: 141.3}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 407, y: 0}
+  m_SizeDelta: {x: 542.5, y: 141.29999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6974758
 MonoBehaviour:
@@ -440,10 +440,10 @@ RectTransform:
   m_Father: {fileID: 2063426755}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.000061035156, y: 0}
-  m_SizeDelta: {x: 807.7, y: 1078.3}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.4326042, y: 1}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_SizeDelta: {x: -22.299988, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &355448572
 MonoBehaviour:
@@ -559,10 +559,10 @@ RectTransform:
   m_Father: {fileID: 2063426755}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -556.15, y: 287}
-  m_SizeDelta: {x: 339.3, y: 141.3}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 407, y: -248}
+  m_SizeDelta: {x: 339.3, y: 141.29999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369210741
 MonoBehaviour:
@@ -836,11 +836,11 @@ RectTransform:
   m_Father: {fileID: 2063426755}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 403.84998, y: 361.84998}
-  m_SizeDelta: {x: 1112.3, y: 295.6}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.4326042, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0}
+  m_SizeDelta: {x: 0, y: 295.59998}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1628498612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,9 +1014,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6115713923d34eb4a99644635170a159, type: 3}
+  m_audioClip: {fileID: 8300000, guid: faa88ef0cf3d823488d154ee9611603d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.343
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1324,8 +1324,8 @@ Canvas:
   m_GameObject: {fileID: 2063426751}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
